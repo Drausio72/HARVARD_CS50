@@ -1,0 +1,22 @@
+0.  GIF - 256 Colors, BMP - 16 Million Colors, JPEG - 16 Million Colors, PNG - 16 Million Colors
+1.  GIF
+2.  Lossy compression will generate visible loss of quality to the image. Lossless won't.
+3.  JPEG
+4.  The "index" that points to the address (sectors) where that file is physically stored in the drive is erased.
+    But the file itself remains intact in its media location until other information overwrites it.
+5.  After deleting the file's FAT registry, ovewrite the sectors it occupied with NULL sectors (zeroes).
+6.  It's the header file that defines different types of "ints", each with a different size
+7.  It allows you to allocate the exact amount of memory you need for each integer, depending on its size.
+8.  1, 4, 4 and 2 bytes respectively   
+9.  The characters B and M.
+10. biSize is the number of bytes required by the structure and bfSize is the number of bytes required by the
+file
+11. It indicates that the file maps the colors from bottom to top
+12. biBitCount
+13. In case it ends up pointing to no file at all (the file wasn't able to be written due to a disk protection
+error, for example)
+14. Because if it's 0 (or NULL) it means a READ ERROR occurred.
+15. 12
+16. fseek "goes" to the next padding
+17. SEEK_CUR moves to the next pointer
+18. Milo Banana dun it.

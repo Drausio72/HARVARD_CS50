@@ -1,0 +1,12 @@
+0.  It's a pulmonary disease
+1.  Returns resource usage measures
+2.  16
+3.  In order to maintain the last values in memory
+4.  It reads all the characters of the file in a stream and when it finds a NULL (\0) character it stores the word
+into a position inside an array
+5.  fscanf can result in BUFFER OVERFLOW and open doors to attacks
+6.  Because a hashtable is a deterministic structure. Meaning, evey value has to map to the same index.  
+7.  I used linked lists inside a hashtable of 100 buckets.
+8.  TODO
+9.  TODO
+10. TODO
